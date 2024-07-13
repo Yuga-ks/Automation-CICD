@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-11T17:13:43 IST" name="Suite" finished-at="2024-07-11T17:13:59 IST" duration-ms="15618">
+    <groups>
+      <group name="Purchase">
+        <method signature="StandAloneTest.submitOrder(java.util.HashMap)[pri:0, instance:PracticeFrameWork.Tests.StandAloneTest@f68f0dc]" name="submitOrder" class="PracticeFrameWork.Tests.StandAloneTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-07-11T17:13:43 IST" name="Base Test" finished-at="2024-07-11T17:13:43 IST" duration-ms="15">
+    </test> <!-- Base Test -->
+    <test started-at="2024-07-11T17:13:43 IST" name="Error Validations" finished-at="2024-07-11T17:13:43 IST" duration-ms="15">
+    </test> <!-- Error Validations -->
+    <test started-at="2024-07-11T17:13:43 IST" name="StansAloneTest" finished-at="2024-07-11T17:13:59 IST" duration-ms="15618">
+      <class name="PracticeFrameWork.Tests.StandAloneTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:PracticeFrameWork.Tests.StandAloneTest@f68f0dc]" started-at="2024-07-11T17:13:43 IST" name="launchApplication" finished-at="2024-07-11T17:13:45 IST" duration-ms="1785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:PracticeFrameWork.Tests.StandAloneTest@f68f0dc]" started-at="2024-07-11T17:13:45 IST" name="submitOrder" data-provider="getData" finished-at="2024-07-11T17:13:51 IST" duration-ms="5694" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Mylovelife@123, product=ZARA COAT 3, email=shova@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:PracticeFrameWork.Tests.StandAloneTest@f68f0dc]" started-at="2024-07-11T17:13:51 IST" name="teardown" finished-at="2024-07-11T17:13:51 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:PracticeFrameWork.Tests.StandAloneTest@f68f0dc]" started-at="2024-07-11T17:13:51 IST" name="launchApplication" finished-at="2024-07-11T17:13:53 IST" duration-ms="2051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:PracticeFrameWork.Tests.StandAloneTest@f68f0dc]" started-at="2024-07-11T17:13:53 IST" name="submitOrder" data-provider="getData" finished-at="2024-07-11T17:13:59 IST" duration-ms="5543" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, product=ADIDAS ORIGINAL, email=shetty@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:PracticeFrameWork.Tests.StandAloneTest@f68f0dc]" started-at="2024-07-11T17:13:59 IST" name="teardown" finished-at="2024-07-11T17:13:59 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- PracticeFrameWork.Tests.StandAloneTest -->
+    </test> <!-- StansAloneTest -->
+  </suite> <!-- Suite -->
+</testng-results>

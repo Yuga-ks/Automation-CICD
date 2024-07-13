@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel ='tests'  name="Suite">
+	<groups>
+		<run>
+		<include name = "Errorhandling"> </include>	
+		</run>
+	</groups>
+	
+	
+  <test thread-count="5" name="Error Validations">
+    <classes>
+      <class name="PracticeFrameWork.Tests.ErrorValidations"/>
+       </classes>
+  </test>
+  <test thread-count="5" name="StansAloneTest">
+    <classes>
+      <class name="PracticeFrameWork.Tests.StandAloneTest"/>
+       </classes>
+  </test>
+  
+  
+  <test thread-count="5" name="Base Test">
+    <classes>
+      <class name="PracticeFrameWork.TestComponents.BaseTest"/>
+       </classes>
+  </test>
+   
+</suite> <!-- Suite -->
